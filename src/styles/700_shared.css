@@ -1,0 +1,402 @@
+@font-face {
+  font-family: 'Radiance';
+  src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance.eot');
+  src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance.woff') format('woff'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance.ttf') format('truetype'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance.svg#ywftsvg')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Radiance-Bold';
+  src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.eot');
+  src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.woff')
+      format('woff'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.ttf')
+      format('truetype'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.svg#ywftsvg')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Radiance-SemiBold';
+  src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot');
+  src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.woff')
+      format('woff'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.ttf')
+      format('truetype'),
+    url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.svg#ywftsvg')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Radiance';
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  color: #999999;
+}
+
+* {
+  font-family: 'Radiance';
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+ul {
+  margin: 0 0 0 0;
+}
+
+div.Container {
+  width: 100%;
+  position: relative;
+}
+
+div.Container .Inner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1050px;
+}
+
+div.Container,
+div.Container .Inner {
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+div.Container.RepeatY,
+div.Container.RepeatY .Inner {
+  background-repeat: repeat-y;
+}
+
+#Header,
+#Header .Inner {
+  background-image: url('http://cdn.dota2.com/apps/dota2/images/700/header.jpg');
+  background-position: center center;
+  background-color: #000000;
+  height: 76px;
+}
+
+#Header {
+  position: fixed;
+  top: 0px;
+  z-index: 99999;
+  box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.8);
+}
+
+#HeaderPad {
+  background-color: #000000;
+  height: 76px;
+}
+
+h1.OrangeGradient,
+h2.OrangeGradient,
+h3.OrangeGradient,
+h4.OrangeGradient {
+  display: table;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #ff6600;
+}
+
+@supports (background-image: -webkit-linear-gradient(left, #ff6600, #ed3b1c)) {
+  h1.OrangeGradient,
+  h2.OrangeGradient,
+  h3.OrangeGradient,
+  h4.OrangeGradient {
+    background-image: -webkit-linear-gradient(left, #ff6600, #ed3b1c);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+@supports (background-image: -moz-linear-gradient(left, #ff6600, #ed3b1c)) {
+  h1.OrangeGradient,
+  h2.OrangeGradient,
+  h3.OrangeGradient,
+  h4.OrangeGradient {
+    background-image: -moz-linear-gradient(left, #ff6600, #ed3b1c);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+@supports (background-image: -ms-linear-gradient(left, #ff6600, #ed3b1c)) {
+  h1.OrangeGradient,
+  h2.OrangeGradient,
+  h3.OrangeGradient,
+  h4.OrangeGradient {
+    background-image: -ms-linear-gradient(left, #ff6600, #ed3b1c);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -ms-background-clip: text;
+  }
+}
+
+@supports (background-image: -o-linear-gradient(left, #ff6600, #ed3b1c)) {
+  h1.OrangeGradient,
+  h2.OrangeGradient,
+  h3.OrangeGradient,
+  h4.OrangeGradient {
+    background-image: -o-linear-gradient(left, #ff6600, #ed3b1c);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+@supports (background-image: linear-gradient(left, #ff6600, #ed3b1c)) {
+  h1.OrangeGradient,
+  h2.OrangeGradient,
+  h3.OrangeGradient,
+  h4.OrangeGradient {
+    background-image: linear-gradient(left, #ff6600, #ed3b1c);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+/* Why the hell does Edge say it @supports background-image linear-gradient, and
+   also says it @supports background-clip text, but fails to do the right thing?!
+   So now I have this terrible hack that hopefully lasts for long enough... */
+@supports (-ms-ime-align: auto) {
+  h1.OrangeGradient,
+  h2.OrangeGradient,
+  h3.OrangeGradient,
+  h4.OrangeGradient {
+    color: #ff6600;
+  }
+}
+
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  @media {
+    h1.OrangeGradient,
+    h2.OrangeGradient,
+    h3.OrangeGradient,
+    h4.OrangeGradient {
+      color: #ff6600;
+    }
+  }
+}
+
+h1.OrangeGradient {
+  font-family: 'Radiance-Bold';
+  font-size: 63px;
+  letter-spacing: 3.5px;
+}
+
+h2.OrangeGradient {
+  font-family: 'Radiance';
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+h3.OrangeGradient {
+  font-family: 'Radiance';
+  font-size: 30px;
+  letter-spacing: 0px;
+  -webkit-text-stroke: 0.2px;
+  -moz-text-stroke: 0.2px;
+  text-stroke: 0.2px;
+}
+
+h4.OrangeGradient {
+  font-family: 'Radiance';
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  -webkit-text-stroke: 0.2px;
+  -moz-text-stroke: 0.2px;
+  text-stroke: 0.2px;
+}
+
+p.BigGrayBlock {
+  display: block;
+  position: absolute;
+  font-size: 24px;
+  color: #999999;
+  line-height: 40px;
+}
+
+h1.BoldWhite {
+  display: table;
+  font-family: 'Radiance-Bold';
+  font-weight: normal;
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 70px;
+  color: white;
+}
+
+h2.OrangeBoxHeader {
+  display: table;
+  font-family: 'Radiance';
+  font-weight: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  padding: 11px 19px 11px 19px;
+  color: #ffffff;
+  background: rgba(237, 59, 28, 0.56);
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 102, 0, 0.56) 0%,
+    rgba(255, 102, 0, 0.56) 1%,
+    rgba(237, 59, 28, 0.56) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 102, 0, 0.56) 0%,
+    rgba(255, 102, 0, 0.56) 1%,
+    rgba(237, 59, 28, 0.56) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 102, 0, 0.56) 0%,
+    rgba(255, 102, 0, 0.56) 1%,
+    rgba(237, 59, 28, 0.56) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr='#8fff661c',
+      endColorstr='#8fed3b1c',
+      GradientType=1
+    );
+}
+
+h2.OrangeBoxHeader b {
+  color: #ff9249;
+  font-weight: normal;
+}
+
+#HubLink {
+  position: absolute;
+  display: block;
+  width: 383px;
+  height: 53px;
+  color: #cccccc;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.35px;
+  padding-top: 15px;
+  padding-left: 74px;
+}
+
+#HubLink img {
+  margin-bottom: -3px;
+  margin-right: 6px;
+}
+
+#HubLink:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#HeaderLogo {
+  display: table;
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-top: 12px;
+  margin-left: 46px;
+  margin-right: 19px;
+}
+
+.HeaderPage,
+.HeaderPage:active,
+.HeaderPage:visited,
+.HeaderPage:focus {
+  display: table;
+  float: left;
+  height: 76px;
+  color: #666666;
+  letter-spacing: 2.4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 29px;
+  padding-left: 21px;
+  padding-right: 22px;
+  -webkit-text-stroke: 0.2px;
+  -moz-text-stroke: 0.2px;
+  text-stroke: 0.2px;
+}
+
+.HeaderPage:hover,
+.HeaderPage.HeaderPageActive {
+  -webkit-text-stroke: 0px;
+  -moz-text-stroke: 0px;
+  text-stroke: 0px;
+}
+
+.HeaderPage:hover {
+  color: #ffffff;
+  -webkit-transition: color 0s ease-in-out;
+  -moz-transition: color 0s ease-in-out;
+  -o-transition: color 0s ease-in-out;
+  transition: color 0s ease-in-out;
+}
+
+.HeaderPage.HeaderPageActive,
+.HeaderPage.HeaderPageActive:hover {
+  cursor: default;
+  background-color: #252525;
+  color: #ffffff;
+}
+
+video {
+  background-color: #212121;
+}
+
+#BG2 .Inner.VideoInner,
+#BG2 .Inner.VideoMask {
+  padding-top: 0px;
+  padding-left: 0px;
+  width: 100%;
+  min-width: 1160px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#KeyArt {
+  width: 100%;
+  max-width: 1600px;
+  height: 1053px;
+  z-index: 0;
+  display: inline-block;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+#BG2 .Inner.VideoMask {
+  position: relative;
+  top: -1053px;
+  background-image: url('http://cdn.dota2.com/apps/dota2/images/700/video_mask.png');
+  background-color: transparent;
+}
+
+#BG2 .Inner.Overlay {
+  background: none;
+  position: relative;
+  top: -2106px;
+  z-index: 100;
+  pointer-events: none;
+}

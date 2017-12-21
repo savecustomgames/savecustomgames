@@ -1,0 +1,14 @@
+language: node_js
+node_js: node
+script: gulp
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
+  email: pimpmehard@hotmail.com
+  name: Save Custom Games
+  repo: savecustomgames/savecustomgames.github.io
+  target_branch: master
+  on:
+    branch: master

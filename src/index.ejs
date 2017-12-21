@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="http://www.dota2.com/favicon.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/styles/global_english.css" rel="stylesheet" type="text/css">
+        <link href="/styles/publicheader.css" rel="stylesheet" type="text/css">
+        <link href="/styles/700_shared.css" rel="stylesheet" type="text/css">
+        <link href="/styles/700_save.css" rel="stylesheet" type="text/css">
+        <link href="/styles/font_goudytrajan.css" rel="stylesheet" type="text/css">
+        <% if (currentLocale === 'default') { %>
+        <script>
+            if (!document.cookie.split(';').some(x => x.trim().startsWith('visited')))
+            {
+                var language = navigator.language || navigator.userLanguage
+                document.cookie += "visited=1"
+                <% locales.filter(l => l !== "default").forEach(function(locale) { %>
+                    if (language.startsWith("<%- locale %>")) window.location.replace("/<%- locale%>.html")
+                <% }) %>
+            }
+        </script>
+        <% } %>
+        <title><%- __.title %></title>
+    </head>
+    <body>
+        <div class="Container" id="BG2">
+            <div class="Inner VideoInner">
+                <video id="KeyArt" autoplay muted loop preload="auto">
+                    <source type="video/webm" src="/images/header.webm">
+                    <source type="video/mp4" src="/images/header.mp4">
+                </video>
+            </div>
+            <div class="Inner VideoMask"></div>
+            <div class="Inner Overlay">
+                <h1 class="OrangeGradient"><%- __.title_line1 %></h1>
+                <h1 class="BoldWhite"><%- __.title_line2 %></h1>
+            </div>
+            <span class="LocalizationList">
+                <% locales.forEach(function(locale) {%>
+                    <a href="/<%= locale === 'default' ? '' : locale + '.html' %>"><%-__[`locale_${locale}`] %></a>
+                <% }) %>
+            </span>
+        </div>
+        <div class="Container IntroductionContainer">
+            <div class="Inner">
+                <h2 class="OrangeGradient"><%- __.introduction %></h3>
+                <p class="BigGrayBlock"><%- __.introduction_text %></p>
+            </div>
+        </div>
+        <% (__.reasons || []).forEach(function(reason) { %>
+            <div class="Container ReasonContainer">
+                <div class="Inner">
+                    <h2 class="OrangeBoxHeader"><%- reason.title %></h2>
+                    <video autoplay muted loop preload="auto">
+                        <source type="video/webm" src="<%- reason.video_webm %>">
+                        <source type="video/mp4" src="<%- reason.video_mp4 %>">
+                    </video>
+                    <p><%- reason.text %></p>
+                </div>
+            </div>
+        <% }) %>
+        <div class="Container ContactsContainer">
+            <div class="Inner">
+                <h3><%- __.what_you_can_do %></h3>
+                <p><%- __.what_you_can_do_text %></p>
+                <div class="Links">
+                    <% (__.contacts || []).forEach(function(contact) { %>
+                        <div>
+                            <a rel="noreferrer" target="_blank" href="<%- contact.href %>">
+                                <%- contact.text %>
+                            </a>
+                        </div>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

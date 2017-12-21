@@ -1,0 +1,43 @@
+locale_default: English
+locale_zh: 中文 (Chinese)
+
+title: Save Custom Games
+
+title_line1: Save
+title_line2: Custom Games
+
+introduction: Introduction
+introduction_text: Custom Games Need Help. For a long time Valve has mostly ignored the modding community. Rare, essentially no communication,
+
+reasons:
+  - title: FIX FREQUENT PLAYER DISCONNECTS
+    video_webm: /images/reason_disconnects.webm
+    video_mp4: /images/reason_disconnects.mp4
+    text: For years, custom games have been plagued with predictable and widespread disconnecting in the beginning phase of games. This problem affects nearly all games, including Valve custom games, Overthrow and 10v10. It is not clear what is causing it and no custom game developer has been able to fix it. This problem is usually fixed by reconnecting after a disconnect but for some custom games, this bug is more severe as reconnecting will not reload hero selection UI and they will be left in an unplayable state. The problem is likely related to loading too many assets at once but it will require valve to investigate and fix, as it is out of the domain of custom game developers.
+  - title: IMPROVE DEBUGGING TOOLS
+    video_webm: /images/reason_debugging.webm
+    video_mp4: /images/reason_debugging.mp4
+    text: Figuring out bugs in a live environment is unnecessarily complicated, especially on dedicated servers, which bring their own set of issues. Developers have no direct access to server logs when a game is hosted on dedicated servers, which combined with the frequent breakage and seemingly random API changes makes it harder to figure bugs out. A website where you could access server logs for your games would help. Custom game replays have been disabled well over a year ago, due to them occupying too much disk space. Re-enabling them for less problematic games and with a smaller download window would help. The “SPECTATE” menu button never worked (you can only spectate friends). Developers have to rely on players to deliver bug reports. The disconnection/reconnection flow can not be tested in tools, due to servers immediately shutting down. The spectator experience also can not be properly emulated. A tool allowing to disconnect/force to abandon/reconnect bots and allowing to become a spectator would help.
+  - title: AUTOMATE GIVING OF DEDICATED SERVERS
+    video_webm: /images/reason_servers.webm
+    video_mp4: /images/reason_servers.mp4
+    text: Valve's sporadic and seemingly manual process of giving out dedicated servers to custom games has resulted in even popular games not having them, while older games that nobody plays anymore have dedicated servers. Developers have even resorted to cannibalizing older custom games entries to take advantage of their dedicated servers status (Open Angel Arena taking Pimp My Peon's Entry). Valve should instead automate the process of giving dedicated servers, so that once a game reaches a certain popularity, servers will be allocated, or reallocated if the game becomes unplayed.
+  - title: PROVIDE CHANGELOG FOR API UPDATES
+    video_webm: /images/reason_updates.webm
+    video_mp4: /images/reason_updates.mp4
+    text: For a company that prides itself on supporting user generated content, it's strange that so little consideration is given for the modding community. Updating a dynamic game like DotA 2 is bound to break custom games sometimes, but too frequently valve makes slight or seemingly unnecessary changes (like renaming a function and then changing it back a month later) which breaks many custom games, leaving the community to try to discover what has changed and what broke. It would be trivially easy for Valve to provide a simple changelog of updates to the API when they release updates, it would help modders recover much faster from game breaking updates.
+  - title: IMPROVE COMMUNICATION
+    video_webm: /images/reason_communication.webm
+    video_mp4: /images/reason_communication.mp4
+    text: The one thing modders desperately need, is communication. Its understandable that valve is not always interested in custom games and they have many different projects and creative endeavours that take up their time, but it does not seem unreasonable for them to devote 1 or 2 employees to touch base with the modding community maybe once or twice a month. The modding community has tried to meet valve halfway, maintaining an extensive <a href="https://github.com/ModDota/BugTracker/issues" target="_blank">bugtracker</a>, in hope that valve will use this resource (and the pool of talent behind it), to finally address some very old bugs, but as of now, the only time Valve has communicated through it was in february 2017, when one valve employee has commented on numerous bugs and issues. We know valve is capable of this type of sustained cooperation as they have done a fantastic job building the BOT API with the help of the community.
+
+what_you_can_do: WHAT YOU CAN DO
+what_you_can_do_text: Tell Valve that custom games are important for Dota 2 community!
+
+contacts:
+  - text: Write to Dota 2 Custom Games team
+    href: mailto:dotacustomgames@valvesoftware.com
+  - text: Write to Dota 2 Team
+    href: http://www.valvesoftware.com/email.php?recipient=Dota%202%20Team
+  - text: Make a thread on Dota 2 Dev Forum
+    href: https://dev.dota2.com/forumdisplay.php?f=484

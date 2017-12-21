@@ -1,0 +1,154 @@
+*,
+html,
+body,
+td {
+  font-family: arial, helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2d2d2b;
+  color: #939393;
+}
+
+a,
+a:active,
+a:visited,
+a:focus {
+  color: #959595;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease-in-out;
+  -moz-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+.LocalizationList {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#BG2,
+#BG2 .Inner {
+  background-color: #000000;
+  height: 1053px;
+}
+
+#BG2 .Inner {
+  padding-top: 39px;
+  padding-left: 45px;
+}
+
+#BG2 .Inner.VideoMask {
+  background-image: url('/images/video_mask.png');
+}
+
+#BG2 h1.OrangeGradient {
+  padding-left: 5px;
+}
+
+.IntroductionContainer,
+.IntroductionContainer .Inner {
+  background-image: url('/images/bg_03.jpg');
+  background-color: #000000;
+  height: 394px;
+}
+
+.IntroductionContainer h2 {
+  position: absolute;
+  top: 64px;
+  left: 51px;
+}
+
+.IntroductionContainer p {
+  position: absolute;
+  width: 870px;
+  top: 129px;
+  left: 52px;
+}
+
+.ReasonContainer,
+.ReasonContainer .Inner {
+  background-image: url('/images/bg_04.jpg');
+  background-color: #191a1c;
+  height: 1056px;
+}
+
+.ReasonContainer h2 {
+  position: absolute;
+  top: 110px;
+  left: 53px;
+}
+
+.ReasonContainer video {
+  position: absolute;
+  top: 180px;
+  left: 52px;
+  width: 944px;
+  height: 592px;
+}
+
+.ReasonContainer p {
+  position: absolute;
+  top: 774px;
+  left: 53px;
+  padding: 10px 15px;
+  width: 944px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.ContactsContainer,
+.ContactsContainer .Inner {
+  background-image: url('/images/bg_08.jpg');
+  background-color: #141517;
+  height: 949px;
+  position: relative;
+}
+
+.ContactsContainer h3 {
+  padding-top: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 72px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.ContactsContainer p {
+  display: table;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 24px;
+  color: #dcdcdc;
+}
+
+.ContactsContainer .Links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.ContactsContainer .Links div {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.ContactsContainer .Links a {
+  font-size: 32px;
+  color: white;
+  text-shadow:
+   -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}

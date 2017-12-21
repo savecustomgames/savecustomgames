@@ -1,0 +1,19 @@
+{
+  "name": "savecustomgames",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "fs-extra": "^4.0.3",
+    "gulp": "gulpjs/gulp.git#4.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-ejs": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "js-yaml": "^3.10.0",
+    "merge-stream": "^1.0.1",
+    "p-map": "^1.2.0"
+  }
+}
