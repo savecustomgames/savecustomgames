@@ -38,9 +38,13 @@
                 <h1 class="BoldWhite"><%- __.title_line2 %></h1>
             </div>
             <span class="LocalizationList">
-                <% locales.forEach(function(locale) {%>
-                    <a href="/<%= locale === 'default' ? '' : locale + '.html' %>"><%-__[`locale_${locale}`] %></a>
-                <% }) %>
+                <% locales.forEach(function(locale) {
+                    if (currentLocale === locale) { %>
+                        <div><%- __[`locale_${locale}`] %></div>
+                    <% } else { %>
+                        <a href="/<%= locale === 'default' ? '' : locale + '.html' %>"><%- __[`locale_${locale}`] %></a>
+                    <% }
+                }) %>
             </span>
         </div>
         <div class="Container IntroductionContainer">

@@ -388,7 +388,7 @@ video {
 
 #BG2 .Inner.VideoMask {
   position: relative;
-  top: -1053px;
+  top: -949px;
   background-image: url('http://cdn.dota2.com/apps/dota2/images/700/video_mask.png');
   background-color: transparent;
 }
@@ -396,7 +396,7 @@ video {
 #BG2 .Inner.Overlay {
   background: none;
   position: relative;
-  top: -2106px;
+  top: -1898px;
   z-index: 100;
   pointer-events: none;
 }
