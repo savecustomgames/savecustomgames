@@ -65,11 +65,12 @@
             <div class="Inner">
                 <h3><%- __.what_you_can_do %></h3>
                 <p><%- __.what_you_can_do_text %></p>
-                <div class="Links">
+                <div class="Cards">
                     <% (__.contacts || []).forEach(function(contact) { %>
-                        <div>
+                        <div class="Card">
                             <a rel="noreferrer" target="_blank" href="<%- contact.href %>">
-                                <%- contact.text %>
+                                <img src="<%- contact.image %>">
+                                <h4><%- contact.text %></h4>
                             </a>
                         </div>
                     <% }) %>

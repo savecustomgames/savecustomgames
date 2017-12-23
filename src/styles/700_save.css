@@ -109,7 +109,6 @@ a:hover {
   background-image: url('/images/bg_08.jpg');
   background-color: #141517;
   height: 949px;
-  position: relative;
 }
 
 .ContactsContainer h3 {
@@ -130,25 +129,49 @@ a:hover {
   color: #dcdcdc;
 }
 
-.ContactsContainer .Links {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.ContactsContainer .Cards {
+  margin-top: 64px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.ContactsContainer .Links div {
+.Card {
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  background: rgba(218, 206, 255, 0.37);
+  display: inline-block;
+  padding: 5px;
+}
+
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  background: rgba(218, 206, 255, 0.44);
+}
+
+.Card a {
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card img {
+  border-radius: 5px 5px 0;
+  width: 270px;
+  height: 270px;
+  object-fit: contain;
+}
+
+.Card h4 {
+  margin: 8px 0;
   text-align: center;
-  margin: 10px 0;
-}
-
-.ContactsContainer .Links a {
-  font-size: 32px;
+  font-size: 16px;
   color: white;
-  text-shadow:
-   -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-     2px 2px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }

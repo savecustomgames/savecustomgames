@@ -1,5 +1,5 @@
 locale_default: English
-locale_zh: 中文 (Chinese)
+locale_ru: Русский (Russian)
 
 title: Save Custom Games
 
@@ -37,7 +37,10 @@ what_you_can_do_text: Tell Valve that custom games are important for Dota 2 comm
 contacts:
   - text: Write to Dota 2 Custom Games team
     href: mailto:dotacustomgames@valvesoftware.com
+    image: /images/contact_custom_team.png
   - text: Write to Dota 2 Team
     href: http://www.valvesoftware.com/email.php?recipient=Dota%202%20Team
+    image: /images/contact_dota_team.png
   - text: Make a thread on Dota 2 Dev Forum
     href: https://dev.dota2.com/forumdisplay.php?f=484
+    image: /images/contact_forum.png
