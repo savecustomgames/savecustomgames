@@ -19,8 +19,8 @@ reasons:
     video_mp4: /images/reason_disconnects.mp4
     text: For <a href="https://www.reddit.com/r/DotA2/comments/7ehmdt/how_can_it_still_be_after_literally_years_that/" target="_blank">years</a>, custom games have been plagued with predictable and widespread disconnecting in the beginning phase of games. This problem affects most games, including Valve custom games, Overthrow and 10v10. This problem is usually fixed by reconnecting after a disconnect but for some custom games, this bug is more severe as reconnecting will not reload hero selection UI and they will be left in an unplayable state. The problem is entirely on Valve’s end, and unfortunately we cannot do anything about it from the standpoint as a custom game developer.
   - title: PROVIDE CHANGELOG FOR API UPDATES
-    video_webm: /images/reason_servers.webm
-    video_mp4: /images/reason_servers.mp4
+    video_webm: /images/reason_updates.webm
+    video_mp4: /images/reason_updates.mp4
     text: For a company that prides itself on <a href="https://imgur.com/jszUNxr" target="_blank">supporting</a> user generated content, it's strange that so little consideration is given for the modding community. Updating a dynamic game like DotA 2 is bound to <a href="https://www.reddit.com/r/DotA2/comments/5iy4k5/700_is_killing_my_custom_game_and_i_cant_do/" target="_blank">break</a> custom games sometimes, but too frequently valve makes slight or seemingly unnecessary changes (like renaming a function and then changing it back a month later) which breaks many custom games, leaving the community to scramble and try to figure out what has changed and what broke. It would be trivially easy for Valve to provide a simple changelog of updates to the API when they release updates and it would help modders recover much faster from game breaking updates.
   - title: IMPROVE DEBUGGING TOOLS
     video_webm: /images/reason_debugging.webm
