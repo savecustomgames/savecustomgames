@@ -117,8 +117,6 @@ a:hover {
   background-image: url('/images/bg_08.jpg');
   background-color: #141517;
   height: 949px;
-  display: flex;
-  flex-flow: column;
 }
 
 .ContactsContainer h3 {
@@ -143,8 +141,7 @@ a:hover {
   margin-top: 64px;
   width: 100%;
   display: flex;
-  flex: 1;
-  margin-bottom: 200px;
+  margin-top: 190px;
   justify-content: center;
   align-items: center;
 }

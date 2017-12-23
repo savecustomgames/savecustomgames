@@ -41,6 +41,10 @@ gulp.task('images', () =>
   gulp.src('./src/images/**/*').pipe(gulp.dest('./dist/images')),
 );
 
+gulp.task('fonts', () =>
+  gulp.src('./src/fonts/**/*').pipe(gulp.dest('./dist/fonts')),
+);
+
 gulp.task('watch html', () =>
   gulp.watch(
     ['./src/index.ejs', './src/localizations/*.yml'],
@@ -53,9 +57,12 @@ gulp.task('watch styles', () =>
 gulp.task('watch images', () =>
   gulp.watch('./src/images/**/*', gulp.task('images')),
 );
+gulp.task('watch fonts', () =>
+  gulp.watch('./src/fonts/**/*', gulp.task('fonts')),
+);
 
-gulp.task('default', gulp.parallel('html', 'styles', 'images'));
+gulp.task('default', gulp.parallel('html', 'styles', 'images', 'fonts'));
 gulp.task(
   'watch',
-  gulp.parallel('default', 'watch html', 'watch styles', 'watch images'),
+  gulp.parallel('default', 'watch html', 'watch styles', 'watch images', 'watch fonts'),
 );
