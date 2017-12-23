@@ -27,8 +27,8 @@ reasons:
     video_mp4: /images/reason_debugging.mp4
     text: Developers have little to no ability to track down information leading to the cause of various bugs and crashes, both in the local testing client and especially in the live servers. The types of crashes are wide in range, from some being as simple as a function being renamed by Valve, to others as complicated as an order crashing the server because the order ended up being invalid with the given parameters. This often leads to months of wasted time for developers to track down these bugs. Simple tools, such as the option to forward the server Lua output to a separate site or workshop page, enabling the specate button or re-enabling replays of custom games would help greatly.
   - title: AUTOMATED DEDICATED SERVERS
-    video_webm: /images/reason_updates.webm
-    video_mp4: /images/reason_updates.mp4
+    video_webm: /images/reason_servers.webm
+    video_mp4: /images/reason_servers.mp4
     text: Valve's <a href="https://www.reddit.com/r/DotA2/comments/6n18qx/something_must_change_about_custom_games_and/" target="_blank">sporadic</a> and seemingly manual process of giving out dedicated servers to custom games has resulted in even popular games not having them, while older games that nobody plays anymore have dedicated servers. Developers have even resorted to cannibalizing older custom games entries to take advantage of their dedicated servers status (Open Angel Arena taking Pimp My Peon's Entry). Valve should instead automate the process of giving dedicated servers, so that once a game reaches a certain popularity, servers will be allocated, or reallocated if the game becomes unplayed.
 
 what_you_can_do: WHAT YOU CAN DO
