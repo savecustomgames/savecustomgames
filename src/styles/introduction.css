@@ -1,0 +1,40 @@
+.IntroductionContainer {
+  background-image: url('/images/background_introduction.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.IntroductionContainer h2 {
+  margin-top: 2.5rem;
+  margin-bottom: .2rem;
+  font-family: Radiance;
+  font-size: 3.2rem;
+  letter-spacing: 5px;
+
+  display: block;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #f60;
+
+  background-image: -webkit-linear-gradient(left,#f60,#ed3b1c);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+/* Extra large screen / wide desktop */
+@media (max-width: 576px) {
+  .IntroductionContainer h2 {
+    text-align: center;
+    font-size: 8vw;
+  }
+}
+
+.IntroductionContainer p {
+  display: block;
+  font-size: 24px;
+  color: #999;
+  line-height: 40px;
+  padding: 0 1rem;
+}

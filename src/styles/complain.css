@@ -1,0 +1,60 @@
+.ComplainContainer {
+  background-image: url('/images/background_reason.jpg');
+  overflow: hidden;
+}
+
+.ComplainContainer h2 {
+  max-width: 60vw;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+  display: table;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+
+  font-family: Radiance;
+  font-size: 30px;
+  letter-spacing: 2.2px;
+  padding: 11px 19px;
+  background: rgba(237,59,28,.56);
+  background: linear-gradient(90deg,rgba(255,102,0,.56) 0,rgba(255,102,0,.56) 1%,rgba(237,59,28,.56));
+}
+
+/* Small screen / phone */
+@media (min-width: 576px) {
+  .ComplainContainer h2 { margin-top: 3rem; }
+}
+/* Medium screen / tablet */
+@media (min-width: 768px) {
+  .ComplainContainer h2 { margin-top: 4rem; }
+}
+/* Large screen / desktop */
+@media (min-width: 992px) {
+  .ComplainContainer h2 { margin-top: 6rem; }
+}
+/* Extra large screen / wide desktop */
+@media (min-width: 1200px) {
+  .ComplainContainer h2 { margin-top: 8rem; }
+}
+
+.ComplainContainer .Inner div {
+  width: 100%;
+  box-shadow: 0 0 2rem black;
+}
+
+.ComplainContainer video {
+  width: 100%;
+}
+
+.ComplainContainer p {
+  box-sizing: border-box;
+  margin-bottom: 3rem;
+  background-color: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(0, 0, 0, 0.77);
+  border-top: none;
+  color: #939393;
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+}

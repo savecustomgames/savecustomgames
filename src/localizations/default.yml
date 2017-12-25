@@ -7,29 +7,27 @@ title_line1: Save
 title_line2: Custom Games
 
 introduction: INTRODUCTION
-introduction_text: Custom Games in Dota represent a continuation of the tradition that gave birth to Dota, but morale within the custom game community is at an all time low. In the wake of the <a href="https://www.reddit.com/r/DotA2/comments/7jvwwp/how_valve_completely_destroyed_custom_games_with/" target="_blank">Frostivus</a> <a href="https://www.reddit.com/r/DotA2/comments/7bc84s/valve_this_custom_game_contest_is_a_bad_joke/" target="_blank">Fiasco</a>, many developers are feeling betrayed and ignored by Valve, feeling that developing custom games is a hopeless uphill battle against a company that doesn’t care. Custom Games have a bright future but only with the support of Valve. Help us get that message to them.
+introduction_text: Custom Games in Dota represent a continuation of the tradition that gave birth to Dota, but morale within the custom game community is at an all time low. In the wake of the [Frostivus](https://www.reddit.com/r/DotA2/comments/7jvwwp/how_valve_completely_destroyed_custom_games_with/) [Fiasco](https://www.reddit.com/r/DotA2/comments/7bc84s/valve_this_custom_game_contest_is_a_bad_joke/), many developers are feeling betrayed and ignored by Valve, feeling that developing custom games is a hopeless uphill battle against a company that doesn’t care. Custom Games have a bright future but only with the support of Valve. Help us get that message to them.
 
-reasons:
+complains:
   - title: IMPROVE COMMUNICATION
-    video_webm: /images/reason_communication.webm
-    video_mp4: /images/reason_communication.mp4
-    text: Communication is what is needed most. Its understandable that valve is not always interested in custom games and they have many different creative endeavours, but it's not unreasonable for 1 or 2 employees to touch base with the modding community on a regular basis. The <a href="https://discord.gg/Mvn4gww" target="_blank">modding community</a> has tried to meet valve halfway, creating and maintaining an extensive <a href="https://github.com/ModDota/BugTracker/issues" target="_blank">bug-tracker</a>, in hope that valve will use this resource to address issues. Valve has viewed the tracker on a few occasions, mainly when Reddit threads containing the tracker made the front page. Valve is capable of this type of sustained cooperation as they have done a fantastic job building the bot API with the help of the community.
+    video: /images/reason_communication
+    text: Communication is what is needed most. Its understandable that valve is not always interested in custom games and they have many different creative endeavours, but it's not unreasonable for 1 or 2 employees to touch base with the modding community on a regular basis. The [modding community](https://discord.gg/Mvn4gww) has tried to meet valve halfway, creating and maintaining an extensive [bug-tracker](https://github.com/ModDota/BugTracker/issues), in hope that valve will use this resource to address issues. Valve has viewed the tracker on a few occasions, mainly when Reddit threads containing the tracker made the front page. Valve is capable of this type of sustained cooperation as they have done a fantastic job building the bot API with the help of the community.
   - title: FIX FREQUENT PLAYER DISCONNECTS
-    video_webm: /images/reason_disconnects.webm
-    video_mp4: /images/reason_disconnects.mp4
-    text: For <a href="https://www.reddit.com/r/DotA2/comments/7ehmdt/how_can_it_still_be_after_literally_years_that/" target="_blank">years</a>, custom games have been plagued with predictable and widespread disconnecting in the beginning phase of games. This problem affects most games, including Valve custom games, Overthrow and 10v10. This problem is usually fixed by reconnecting after a disconnect but for some custom games, this bug is more severe as reconnecting will not reload hero selection UI and they will be left in an unplayable state. The problem is entirely on Valve’s end, and unfortunately we cannot do anything about it from the standpoint as a custom game developer.
+    video: /images/reason_disconnects
+    text: For [years](https://www.reddit.com/r/DotA2/comments/7ehmdt/how_can_it_still_be_after_literally_years_that/), custom games have been plagued with predictable and widespread disconnecting in the beginning phase of games. This problem affects most games, including Valve custom games, Overthrow and 10v10. This problem is usually fixed by reconnecting after a disconnect but for some custom games, this bug is more severe as reconnecting will not reload hero selection UI and they will be left in an unplayable state. The problem is entirely on Valve’s end, and unfortunately we cannot do anything about it from the standpoint as a custom game developer.
   - title: PROVIDE CHANGELOG FOR API UPDATES
-    video_webm: /images/reason_updates.webm
-    video_mp4: /images/reason_updates.mp4
-    text: For a company that prides itself on <a href="https://imgur.com/jszUNxr" target="_blank">supporting</a> user generated content, it's strange that so little consideration is given for the modding community. Updating a dynamic game like DotA 2 is bound to <a href="https://www.reddit.com/r/DotA2/comments/5iy4k5/700_is_killing_my_custom_game_and_i_cant_do/" target="_blank">break</a> custom games sometimes, but too frequently valve makes slight or seemingly unnecessary changes (like renaming a function and then changing it back a month later) which breaks many custom games, leaving the community to scramble and try to figure out what has changed and what broke. It would be trivially easy for Valve to provide a simple changelog of updates to the API when they release updates and it would help modders recover much faster from game breaking updates.
+    video: /images/reason_updates
+    text: For a company that prides itself on [supporting](https://imgur.com/jszUNxr) user generated content, it's strange that so little consideration is given for the modding community. Updating a dynamic game like DotA 2 is bound to [break](https://www.reddit.com/r/DotA2/comments/5iy4k5/700_is_killing_my_custom_game_and_i_cant_do/) custom games sometimes, but too frequently valve makes slight or seemingly unnecessary changes (like renaming a function and then changing it back a month later) which breaks many custom games, leaving the community to scramble and try to figure out what has changed and what broke. It would be trivially easy for Valve to provide a simple changelog of updates to the API when they release updates and it would help modders recover much faster from game breaking updates.
   - title: IMPROVE DEBUGGING TOOLS
-    video_webm: /images/reason_debugging.webm
-    video_mp4: /images/reason_debugging.mp4
+    video: /images/reason_debugging
     text: Developers have little to no ability to track down information leading to the cause of various bugs and crashes, both in the local testing client and especially in the live servers. The types of crashes are wide in range, from some being as simple as a function being renamed by Valve, to others as complicated as an order crashing the server because the order ended up being invalid with the given parameters. This often leads to months of wasted time for developers to track down these bugs. Simple tools, such as the option to forward the server Lua output to a separate site or workshop page, enabling the specate button or re-enabling replays of custom games would help greatly.
   - title: AUTOMATED DEDICATED SERVERS
-    video_webm: /images/reason_servers.webm
-    video_mp4: /images/reason_servers.mp4
-    text: Valve's <a href="https://www.reddit.com/r/DotA2/comments/6n18qx/something_must_change_about_custom_games_and/" target="_blank">sporadic</a> and seemingly manual process of giving out dedicated servers to custom games has resulted in even popular games not having them, while older games that nobody plays anymore have dedicated servers. Developers have even resorted to cannibalizing older custom games entries to take advantage of their dedicated servers status (Open Angel Arena taking Pimp My Peon's Entry). Valve should instead automate the process of giving dedicated servers, so that once a game reaches a certain popularity, servers will be allocated, or reallocated if the game becomes unplayed.
+    video: /images/reason_servers
+    text: Valve's [sporadic](https://www.reddit.com/r/DotA2/comments/6n18qx/something_must_change_about_custom_games_and/) and seemingly manual process of giving out dedicated servers to custom games has resulted in even popular games not having them, while older games that nobody plays anymore have dedicated servers. Developers have even resorted to cannibalizing older custom games entries to take advantage of their dedicated servers status (Open Angel Arena taking Pimp My Peon's Entry). Valve should instead automate the process of giving dedicated servers, so that once a game reaches a certain popularity, servers will be allocated, or reallocated if the game becomes unplayed.
+  - title: TODO
+    video: /images/reason_overview
+    text: TODO
 
 what_you_can_do: WHAT YOU CAN DO
 what_you_can_do_text: Tell Valve that custom games are important for Dota 2 community!
@@ -44,3 +42,14 @@ contacts:
   - text: Make a thread on Dota 2 Dev Forum
     href: https://dev.dota2.com/forumdisplay.php?f=484
     image: /images/contact_forum.png
+
+
+developers_title: This site was created by the Dota 2 custom game community
+developers:
+  - name: Valve
+    avatar: https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)

@@ -1,0 +1,84 @@
+.container_developers__header {
+  background-image: url('/images/background_developers_0.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 333px;
+}
+
+.container_developers__header h1 {
+  max-width: 900px;
+  padding-top: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #e3e3e3;
+  text-shadow: 0px 0px 15px #c12c9a;
+  text-transform: uppercase;
+  font-family: 'Radiance-SemiBold';
+  letter-spacing: 8px;
+  line-height: 1.1;
+  font-size: 4vw;
+}
+/* Small screen / phone */
+@media (min-width: 576px) {
+  .container_developers__header h1 { font-size: 1.66rem; }
+}
+/* Medium screen / tablet */
+@media (min-width: 768px) {
+  .container_developers__header h1 { font-size: 1.75rem; }
+}
+/* Large screen / desktop */
+@media (min-width: 992px) {
+  .container_developers__header h1 { font-size: 2rem; }
+}
+/* Extra large screen / wide desktop */
+@media (min-width: 1200px) {
+  .container_developers__header h1 { font-size: 2rem; }
+}
+
+.container_developers__list {
+  background-image: url(http://cdn.dota2.com/apps/dota2/images/686/gameplay/bg_03.jpg),
+    url(http://cdn.dota2.com/apps/dota2/images/686/gameplay/bg_05.jpg),
+    url(http://cdn.dota2.com/apps/dota2/images/686/gameplay/bg_04.jpg);
+  background-position: center top, center bottom, center top;
+  background-repeat: no-repeat, no-repeat, repeat-y;
+  min-height: 550px;
+}
+
+.container_developers__list .Inner {
+  padding: 0 1rem;
+}
+
+@media (max-width: 992px) {
+  .container_developers__list .Inner { max-width: none;; }
+}
+/* Extra large screen / wide desktop */
+@media (min-width: 992px) {
+  .container_developers__list .Inner { padding: 0 120px; }
+}
+
+.developer__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.developer__avatar {
+  width: 72px;
+  height: 72px;
+}
+
+.developer__name-and-flag {
+  margin-left: 1rem;
+  display: flex;
+  align-items: baseline;
+  font-size: 1.75rem;
+  color: #eee;
+}
+
+.developer__name-and-flag img {
+  margin-left: 0.5rem;
+}
+
+.developer__made {
+  color: #aaa;
+}

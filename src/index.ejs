@@ -4,11 +4,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="shortcut icon" href="http://www.dota2.com/favicon.ico">
         <meta http-equiv="X-UA-Compatible" content="IE=9">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="/styles/global_english.css" rel="stylesheet" type="text/css">
-        <link href="/styles/publicheader.css" rel="stylesheet" type="text/css">
-        <link href="/styles/700_shared.css" rel="stylesheet" type="text/css">
-        <link href="/styles/700_save.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="/styles.css" rel="stylesheet" type="text/css">
         <% if (currentLocale === 'default') { %>
         <script>
             if (!document.cookie.split(';').some(x => x.trim().startsWith('visited')))
@@ -24,50 +21,52 @@
         <title><%- __.title %></title>
     </head>
     <body>
-        <div class="Container" id="BG2">
-            <div class="Inner VideoInner">
-                <video id="KeyArt" autoplay muted loop preload="auto">
+        <div class="Container HeaderContainer">
+            <div class="Inner">
+                <video autoplay muted loop preload="auto">
                     <source type="video/webm" src="/images/header.webm">
                     <source type="video/mp4" src="/images/header.mp4">
                 </video>
+                <div class="VideoMask"></div>
+                <div class="HeaderTitle">
+                    <h1><%- __.title_line1 %></h1>
+                    <h2><%- __.title_line2 %></h1>
+                </div>
+                <span class="LocalizationList">
+                    <% locales.forEach(function(locale) {
+                        if (currentLocale === locale) { %>
+                            <div><%- __[`locale_${locale}`] %></div>
+                        <% } else { %>
+                            <a href="/<%= locale === 'default' ? '' : locale + '.html' %>"><%- __[`locale_${locale}`] %></a>
+                        <% }
+                    }) %>
+                </span>
             </div>
-            <div class="Inner VideoMask"></div>
-            <div class="Inner Overlay">
-                <h1 class="OrangeGradient"><%- __.title_line1 %></h1>
-                <h1 class="BoldWhite"><%- __.title_line2 %></h1>
-            </div>
-            <span class="LocalizationList">
-                <% locales.forEach(function(locale) {
-                    if (currentLocale === locale) { %>
-                        <div><%- __[`locale_${locale}`] %></div>
-                    <% } else { %>
-                        <a href="/<%= locale === 'default' ? '' : locale + '.html' %>"><%- __[`locale_${locale}`] %></a>
-                    <% }
-                }) %>
-            </span>
         </div>
         <div class="Container IntroductionContainer">
             <div class="Inner">
-                <h2 class="OrangeGradient"><%- __.introduction %></h3>
-                <p class="BigGrayBlock"><%- __.introduction_text %></p>
+                <h2><%- __.introduction %></h3>
+                <%- md(__.introduction_text) %>
             </div>
         </div>
-        <% (__.reasons || []).forEach(function(reason) { %>
-            <div class="Container ReasonContainer">
+        <% (__.complains || []).forEach(function(complains) { %>
+            <div class="Container ComplainContainer">
                 <div class="Inner">
-                    <h2 class="OrangeBoxHeader"><%- reason.title %></h2>
-                    <video autoplay muted loop preload="auto">
-                        <source type="video/webm" src="<%- reason.video_webm %>">
-                        <source type="video/mp4" src="<%- reason.video_mp4 %>">
-                    </video>
-                    <p><%- reason.text %></p>
+                    <h2><%- complains.title %></h2>
+                    <div>
+                        <video autoplay muted loop preload="auto">
+                            <source type="video/webm" src="<%- complains.video + '.webm' %>">
+                            <source type="video/mp4" src="<%- complains.video + '.mp4' %>">
+                        </video>
+                    </div>
+                    <%- md(complains.text) %>
                 </div>
             </div>
         <% }) %>
         <div class="Container ContactsContainer">
             <div class="Inner">
                 <h3><%- __.what_you_can_do %></h3>
-                <p><%- __.what_you_can_do_text %></p>
+                <%- md(__.what_you_can_do_text) %>
                 <div class="Cards">
                     <% (__.contacts || []).forEach(function(contact) { %>
                         <div class="Card">
@@ -75,6 +74,32 @@
                                 <img src="<%- contact.image %>">
                                 <h4><%- contact.text %></h4>
                             </a>
+                        </div>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+
+        <div class="Container container_developers">
+            <div class="container_developers__header">
+                <div class="Inner">
+                    <h1><%- __.developers_title %></h1>
+                </div>
+            </div>
+            <div class="container_developers__list">
+                <div class="Inner">
+                    <% (__.developers || []).forEach(function(developer) { %>
+                        <div class="developer">
+                            <div class="developer__info">
+                                <img class="developer__avatar" src="<%- developer.avatar %>">
+                                <div class="developer__name-and-flag">
+                                    <h3><%- developer.name %></h3>
+                                    <img src="<%- `http://steamcommunity-a.akamaihd.net/public/images/countryflags/${developer.flag}.gif` %>">
+                                </div>
+                            </div>
+                            <div class="developer__made">
+                                <%- md(developer.made) %>
+                            </div>
                         </div>
                     <% }) %>
                 </div>
