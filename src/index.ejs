@@ -90,10 +90,10 @@
                 <div class="Inner">
                     <% (__.developers || []).forEach(function(developer) { %>
                         <div class="developer">
-                            <img class="developer__hero" src="http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_sb.png">
+                            <img class="developer__hero" src="/images/icons/<%- developer.icon %>.png">
                             <div class="developer__name-and-flag">
                                 <h3><%- developer.name %></h3>
-                                <img src="<%- `http://steamcommunity-a.akamaihd.net/public/images/countryflags/${developer.flag}.gif` %>">
+                                <img src="http://steamcommunity-a.akamaihd.net/public/images/countryflags/<%- developer.flag %>.gif">
                             </div>
                             <div class="developer__made">
                                 <%- md(developer.made) %>
