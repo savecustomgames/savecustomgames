@@ -61,6 +61,11 @@ developers:
     flag: ca
     made: |-
       * Creator of [Roshpit Champions](https://steamcommunity.com/sharedfiles/filedetails/?id=469311655).
+  - name: Zapp Brannigan
+    icon: bristleback
+    flag: us
+    made: |-
+      * Lead Developer of [WTF+](https://steamcommunity.com/sharedfiles/filedetails/?id=476601122).
   - name: DoctorGester 
     icon: tinker
     flag: ru
@@ -111,13 +116,6 @@ developers:
     flag: il
     made: |-
       * Creator of [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
   - name: Alchemist
     icon: npc_dota_hero_alchemist
     flag: us
