@@ -121,13 +121,11 @@ developers:
     flag: il
     made: |-
       * Creator of [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
+  - name: Darklord
+    icon: shadowfiend
+    flag: au
     made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+      * Lead Developer of [Legends of Dota: Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026) and creator of [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
   - name: Alchemist
     icon: npc_dota_hero_alchemist
     flag: us
