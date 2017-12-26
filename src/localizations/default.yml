@@ -56,6 +56,11 @@ developers:
     flag: ru
     made: |-
       * Creator of [Angel Arena Black Star](https://steamcommunity.com/sharedfiles/filedetails/?id=699441891).
+  - name: Yahnich
+    icon: npc_dota_hero_alchemist
+    flag: be
+    made: |-
+      * Lead Developer of [Epic Boss Fight](https://steamcommunity.com/sharedfiles/filedetails/?id=305278898) and developer for [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942). 
   - name: ChalkyBrush
     icon: leshrac
     flag: ca
@@ -116,13 +121,6 @@ developers:
     flag: il
     made: |-
       * Creator of [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
   - name: Alchemist
     icon: npc_dota_hero_alchemist
     flag: us
