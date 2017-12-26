@@ -52,85 +52,85 @@ developers:
     made: |-
       * Greevil's Greed Bounty Rune multiplier rescaled from 5x to 3/4/5/6x
       * Fixed Greevil's Greed granting full gold during Buyback gold penalty phase
-  - name: Alchemist
+  - name: TidesofDark
+    icon: viper
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+  - name: DoctorGester 
     icon: npc_dota_hero_alchemist
     flag: us
     made: |-
       * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
       * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
       * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
+  - name: Baumi
+    icon: lotus
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+  - name: FireToad
+    icon: nyx
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+  - name: Toyoka
+    icon: wisp
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+  - name: Bread
+    icon: puck
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+  - name: ChalkyBrush
+    icon: leshrac
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+  - name: Usagi Majo Arctangent
+    icon: mindstealer
+    flag: us
+    made: |-
+      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
+      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
+      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
+  - name: Ark120202
     icon: npc_dota_hero_alchemist
     flag: us
     made: |-
       * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
       * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
       * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
+  - name: XavierCHN
+    icon: invoker
     flag: us
     made: |-
       * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
       * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
       * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
+  - name: Mocherad
+    icon: dagonlvl3
     flag: us
     made: |-
       * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
       * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
       * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
-    flag: us
-    made: |-
-      * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
-      * Made [Dota 10v10](https://steamcommunity.com/sharedfiles/filedetails/?id=498108721)
-      * Made [Colosseum](https://steamcommunity.com/sharedfiles/filedetails/?id=543155633)
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
+  - name: Diellan
+    icon: rubick
     flag: us
     made: |-
       * Made [Overthrow](https://steamcommunity.com/sharedfiles/filedetails/?id=455312245)
