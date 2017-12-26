@@ -46,8 +46,8 @@ contacts:
 
 developers_title: This was created and endorsed by the custom game community
 developers:
-  - name: Alchemist
-    icon: npc_dota_hero_alchemist
+  - name: Arhowk 
+    icon: pudge
     flag: us
     made: |-
       * Greevil's Greed Bounty Rune multiplier rescaled from 5x to 3/4/5/6x
