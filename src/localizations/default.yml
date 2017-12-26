@@ -25,9 +25,9 @@ complains:
   - title: AUTOMATED DEDICATED SERVERS
     video: /images/reason_servers
     text: Valve's [sporadic](https://www.reddit.com/r/DotA2/comments/6n18qx/something_must_change_about_custom_games_and/) and seemingly manual process of giving out dedicated servers to custom games has resulted in even popular games not having them, while older games that nobody plays anymore have dedicated servers. Developers have even resorted to cannibalizing older custom games entries to take advantage of their dedicated servers status (Open Angel Arena taking Pimp My Peon's Entry). Valve should instead automate the process of giving dedicated servers, so that once a game reaches a certain popularity, servers will be allocated, or reallocated if the game becomes unplayed.
-  - title: TODO
+  - title: Revamp Arcade Layout
     video: /images/reason_overview
-    text: TODO
+    text: Replace the top 10 view list with a list of all lobbies, grouping lobbies and ranking lobbies by the amount of lobbies and fix the problem where players end up in solo lobbies. A ping should be shown next to grouped lobbies to indicate the ping of the best lobby for the player in that group. Pressing the Play button on grouped lobbies should join the best lobby for the player. A “Local Lobbies” window should show custom games that only have one lobby and are in the same region as a player, this will allow smaller, unknown custom games to be able to find players. Local lobbies should be ranked by age of lobby. 
 
 what_you_can_do: WHAT YOU CAN DO
 what_you_can_do_text: Tell Valve that custom games are important for Dota 2 community!
