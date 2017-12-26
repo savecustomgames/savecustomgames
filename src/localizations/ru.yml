@@ -1,2 +1,127 @@
-locale_default: English
-locale_ru: Русский (Russian)
+locale_default: English (Английский)
+locale_ru: Русский
+
+introduction: ВСТУПЛЕНИЕ
+introduction_text: Пользовательские игры в Dota - это продолжение традиции, которая породила Dota, но настрой в сообществе разработчиков пользовательских игры всегда был низок. После [Неудачного](https://www.reddit.com/r/DotA2/comments/7bc84s/valve_this_custom_game_contest_is_a_bad_joke/) [Холодрыжества](https://www.reddit.com/r/DotA2/comments/7jvwwp/how_valve_completely_destroyed_custom_games_with/) многие разработчикие оказались преданны и проигнорированы Valve, получив чувство, что разработка пользовательских игр - это безнадежная битва против компании, которой нет до нас дела. У пользовательских игр может быть светлое будущее, но лишь с поддержкой Valve. Помогите нам передать им это сообщение.
+
+complains:
+  - title: УЛУЧШЕНИЕ КОММУНИКАЦИИ
+    video: /images/reason_communication
+    text: Коммуникация - это то, что нам нужно сильнее всего. Понятно, что Valve не всегда интересуется пользовательскими играми и у них есть множество разнообразных , но наличие 1 или 2 сотрудников, поддерживающих связь с сообществом на регулярной основе. [Сообщество разработчиков](https://discord.gg/Mvn4gww) пыталось помочь Valve в этом, создав и поддерживая обширный [баг-трекер](https://github.com/ModDota/BugTracker/issues), в надежде, что Valve будут использовать его для решения проблем. Несколько раз Valve просматривали трекер, но, в основном, только когда на Reddit появлялись посты со ссылками на трекер и они попадали на главную страницу. Мы знаем, что Valve способны на такой тип сотрудничества, так как показали это на примере создания API для ботов вместе с сообществом.
+  - title: ИСПРАВЛЕНИЕ ПОСТОЯННЫХ ОТКЛЮЧЕНИЙ ИГРОКОВ
+    video: /images/reason_disconnects
+    text: Много [лет](https://www.reddit.com/r/DotA2/comments/7ehmdt/how_can_it_still_be_after_literally_years_that/), пользовательские игры страдали от предсказуемых и широко распространенных отключениях игроков в начале игр. Эта проблема случается в большинстве пользовательских игр, включая игры от Valve, Overthrow и 10v10. Обычно для продолжения игры достаточно просто переподключиться. Эта проблема находится на стороне Valve, и, к сожалению, мы, как разработчики пользовательских игр, ничего не можем с этим сделать.
+  - title: СПИСОК ИЗМЕНЕНИЙ В API
+    video: /images/reason_updates
+    text: Для компании, которая гордится [поддержкой](https://imgur.com/jszUNxr) контента, создаваемого пользователями, странно уделять так мало внимания сообществу разработчиков. Обновления такой динамичной игры как DotA 2 всегда будут приводить к [появлению ошибок](https://www.reddit.com/r/DotA2/comments/5iy4k5/700_is_killing_my_custom_game_and_i_cant_do/) в пользовательских играх, но очень часто Valve делают незначительные или, очевидно, не нужные изменения (например смена названия функции и возвращение старого в следующем месяце), которые ломают множество пользовательских игр, оставляя сообщество искать изменение, сломавшее пользовательские игры. Valve с легкостью могли бы делать простой список изменений в API, и, при выпуске таких обновлений, разработчики могли бы быстрее от них оправиться.
+  - title: УЛУЧШЕНИЕ ИНСТРУМЕНТОВ ДЛЯ РАЗРАБОТКИ
+    video: /images/reason_debugging
+    text: Разработчики практически не имеют возможности отслеживать информацию, приводящую к возникновению различных ошибок и сбоев, как в локальном тестовом клиенте, так и на выделенных серверах. Типы ошибок находятся в широком диапазоне, начиная от изменения названия функции и до таких сложных, как падение сервера из-за неправильных аргументов приказа. Обычно это приводит к тому, что разработчики тратят месяцы чтобы отследить эти ошибки. Простые инструменты, такие как возможность перенаправить информацию с сервера на отдельный сайт или страницу в Steam Workshop, включение возможности просматривать игры или запись повторов пользовательских игр значительно бы упростило нахождение ошибок.
+  - title: АВТОМАТИЗИРОВАННАЯ ВЫДАЧА ВЫДЕЛЕННЫХ СЕРВЕРОВ
+    video: /images/reason_servers
+    text: '[Нерегулярный](https://www.reddit.com/r/DotA2/comments/6n18qx/something_must_change_about_custom_games_and/) и, судя по всему, ручной процесс выдачи выделенных серверов пользовательским играм, привел к тому, что даже популярные игры не могут их получить, в то время как старые игры, в которые больше никто не играет, имеют выделенные сервера. Разработчики даже прибегли к использованию entries пользовательских игр, уже получивших выделенные сервера (Open Angel Arena использует место Pimp My Peon). Valve должны автоматизировать процесс выдачи выделенных серверов, что бы при достижении определенного уровня популярности, игра получала поддержку выделенных серверов, а став непопулярной - теряла.'
+  - title: РЕКОНСТРУКЦИЯ ИГРОТЕКИ
+    video: /images/reason_overview
+    text: Заменить топ 10 самых популярных игр списком лобби, группируя и сортируя по их количеству открытых лобби, удалить “голосование в мастерской“ и исправить [проблему](https://www.reddit.com/r/DotA2/comments/7lpdq7/suggestions_to_improve_open_lobbies_widget/), когда игроки при нажатии кнопки **ИГРАТЬ** оказываются в пустых лобби. Задержка до сервера должна быть показана рядом с группами лобби, показывая задержку до ближайшего лобби. Нажатие кнопки **ИГРАТЬ** рядом с группой лобби должно присоединить игрока к лобби с наименьшей задержкой. Окно “Локальных Лобби” должно показывать пользовательские игры, которые имею лишь одно лобби в регионе игрока. Это поможет новым пользовательским играм находить игроков. Локальные лобби должны быть отсортированы по длительности их существования.
+
+what_you_can_do: ЧТО ВЫ МОЖЕТЕ СДЕЛАТЬ
+what_you_can_do_text: Скажите Valve, что пользовательские игры важны для сообщества Dota 2!
+
+contacts:
+  - text: Напишите команде пользовательских игр Dota 2
+    href: mailto:dotacustomgames@valvesoftware.com
+    image: /images/contact_custom_team.png
+  - text: Напишите команде Dota 2
+    href: http://www.valvesoftware.com/email.php?recipient=Dota%202%20Team
+    image: /images/contact_dota_team.png
+  - text: Создайте тему на форуме разработки
+    href: https://dev.dota2.com/forumdisplay.php?f=484
+    image: /images/contact_forum.png
+
+developers_title: Сайт был создан и одобрен сообществом пользовательских игр
+developers:
+  - name: FireToad
+    icon: nyx
+    flag: br
+    made: |-
+      * Создатель [Dota IMBA](https://steamcommunity.com/sharedfiles/filedetails/?id=440115357) и [Epic Boss Challenge](https://steamcommunity.com/sharedfiles/filedetails/?id=1138461301).
+  - name: Ark120202
+    icon: demon_edge
+    flag: ru
+    made: |-
+      * Создатель [Angel Arena Black Star](https://steamcommunity.com/sharedfiles/filedetails/?id=699441891).
+  - name: Yahnich
+    icon: alchemist
+    flag: be
+    made: |-
+      * Главный разработчик [Epic Boss Fight](https://steamcommunity.com/sharedfiles/filedetails/?id=305278898) и разработчик [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942).
+  - name: ChalkyBrush
+    icon: leshrac
+    flag: ca
+    made: |-
+      * Создатель [Roshpit Champions](https://steamcommunity.com/sharedfiles/filedetails/?id=469311655).
+  - name: SinZ
+    icon: tome_of_knowledge
+    flag: au
+    made: |-
+      * Руководитель [ModDota.com](https://moddota.com/).
+  - name: Zapp Brannigan
+    icon: bristleback
+    flag: va
+    made: |-
+      * Главный разработчик [WTF+](https://steamcommunity.com/sharedfiles/filedetails/?id=476601122).
+  - name: DoctorGester
+    icon: tinker
+    flag: ru
+    made: |-
+      * Создатель [Crumbling Island Arena](http://steamcommunity.com/sharedfiles/filedetails/?id=473718711) и [It's Greeviling!](http://steamcommunity.com/sharedfiles/filedetails/?id=1201422751).
+  - name: XavierCHN
+    icon: invoker
+    flag: cn
+    made: |-
+      * Создатель [Battle of Mirkwood](https://steamcommunity.com/sharedfiles/filedetails/?id=518202526&searchtext=), [BOM BattleRoyale](https://steamcommunity.com/sharedfiles/filedetails/?id=1092484716) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
+  - name: Baumi
+    icon: lotus_orb
+    flag: de
+    made: |-
+      * [Youtube'ер](https://www.youtube.com/channel/UCmxX0QwCivAbRAXvPbEid8Q) и [стример](https://www.twitch.tv/l34um1). Создатель [Open Angel Arena](http://steamcommunity.com/sharedfiles/filedetails/?id=513926896), [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942) и спонсор [Pimp My Peon](https://steamcommunity.com/sharedfiles/filedetails/?id=972949462).
+  - name: Diellan
+    icon: rubick
+    flag: il
+    made: |-
+      * Создатель [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
+  - name: Arhowk
+    icon: pudge
+    flag: us
+    made: |-
+      * Создатель [Snowtown Throwdown](http://steamcommunity.com/sharedfiles/filedetails/?id=1158412580&searchtext=), [Banjoball Alpha](https://steamcommunity.com/sharedfiles/filedetails/?id=669883818) и проекта ["Diablo 2 in Dota 2"](https://www.reddit.com/r/DotA2/comments/6uc841/diablo_2_in_dota_2_needs_your_help/).
+  - name: TidesofDark
+    icon: viper
+    flag: ru
+    made: |-
+      * Создатель [Petri Reborn](https://steamcommunity.com/sharedfiles/filedetails/?id=483720948) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298) и разработчик [Legends of Dota: Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=717356279).
+  - name: Toyoka
+    icon: wisp
+    flag: us
+    made: |-
+      * Создатель [Snowtown Throwdown](http://steamcommunity.com/sharedfiles/filedetails/?id=1158412580&searchtext=) и [Wisp Cosmetic Set](http://steamcommunity.com/sharedfiles/filedetails/?id=398866023).
+  - name: Usagi Majo Arctangent
+    icon: mindstealer
+    flag: us
+    made: |-
+      * Создатель [Bob Wars](https://steamcommunity.com/sharedfiles/filedetails/?id=904834212&searchtext=), [DOTA 2 But ...](https://steamcommunity.com/sharedfiles/filedetails/?id=838016297), [Randymizer](https://steamcommunity.com/sharedfiles/filedetails/?id=964909547), [DOTA 2 but every Hero is secretly also Chen](https://steamcommunity.com/sharedfiles/filedetails/?id=830359459), [ARAM: Murder Isthmus](https://steamcommunity.com/sharedfiles/filedetails/?id=1170382864) и разработчик [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942).
+  - name: Mocherad
+    icon: dagon_3
+    flag: ru
+    made: |-
+      * Создатель [Pure Reflex](https://steamcommunity.com/sharedfiles/filedetails/?id=575540979), [Frostivus: The Snowman's Story](https://steamcommunity.com/sharedfiles/filedetails/?id=1209178917), [Duel](https://steamcommunity.com/sharedfiles/filedetails/?id=867129063) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
+  - name: Bread
+    icon: puck
+    flag: au
+    made: |-
+      * Создатель [Dusk](https://steamcommunity.com/sharedfiles/filedetails/?id=426167013).
+  - name: Darklord
+    icon: shadowfiend
+    flag: au
+    made: |-
+      * Главный разработчик [Legends of Dota: Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026) и создатель [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
