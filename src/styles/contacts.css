@@ -1,9 +1,7 @@
 .ContactsContainer {
-  background-image: url('/images/background_contacts.jpg');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #000 100%),
+    #141517 center no-repeat url('/images/background_contacts.jpg');
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #141517;
 }
 
 .ContactsContainer h3 {
@@ -34,23 +32,39 @@
 
 /* Small screen / phone */
 @media (min-width: 576px) {
-  .ContactsContainer h3 { font-size: 3rem; }
-  .ContactsContainer .Cards { margin: 2rem 0; }
+  .ContactsContainer h3 {
+    font-size: 3rem;
+  }
+  .ContactsContainer .Cards {
+    margin: 2rem 0;
+  }
 }
 /* Medium screen / tablet */
 @media (min-width: 768px) {
-  .ContactsContainer h3 { font-size: 3.5rem; }
-  .ContactsContainer .Cards { margin: 4rem 0; }
+  .ContactsContainer h3 {
+    font-size: 3.5rem;
+  }
+  .ContactsContainer .Cards {
+    margin: 4rem 0;
+  }
 }
 /* Large screen / desktop */
 @media (min-width: 992px) {
-  .ContactsContainer h3 { font-size: 4rem; }
-  .ContactsContainer .Cards { margin: 6rem 0; }
+  .ContactsContainer h3 {
+    font-size: 4rem;
+  }
+  .ContactsContainer .Cards {
+    margin: 6rem 0;
+  }
 }
 /* Extra large screen / wide desktop */
 @media (min-width: 1200px) {
-  .ContactsContainer h3 { font-size: 4.5rem; }
-  .ContactsContainer .Cards { margin: 8rem 0; }
+  .ContactsContainer h3 {
+    font-size: 4.5rem;
+  }
+  .ContactsContainer .Cards {
+    margin: 8rem 0;
+  }
 }
 
 .Card {

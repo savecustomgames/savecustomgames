@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="shortcut icon" href="http://www.dota2.com/favicon.ico">
+        <link rel="shortcut icon" href="/images/favicon.ico">
         <meta http-equiv="X-UA-Compatible" content="IE=9">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link href="/styles.css" rel="stylesheet" type="text/css">
@@ -90,12 +90,10 @@
                 <div class="Inner">
                     <% (__.developers || []).forEach(function(developer) { %>
                         <div class="developer">
-                            <div class="developer__info">
-                                <img class="developer__avatar" src="<%- developer.avatar %>">
-                                <div class="developer__name-and-flag">
-                                    <h3><%- developer.name %></h3>
-                                    <img src="<%- `http://steamcommunity-a.akamaihd.net/public/images/countryflags/${developer.flag}.gif` %>">
-                                </div>
+                            <img class="developer__hero" src="http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_sb.png">
+                            <div class="developer__name-and-flag">
+                                <h3><%- developer.name %></h3>
+                                <img src="<%- `http://steamcommunity-a.akamaihd.net/public/images/countryflags/${developer.flag}.gif` %>">
                             </div>
                             <div class="developer__made">
                                 <%- md(developer.made) %>

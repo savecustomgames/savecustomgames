@@ -21,28 +21,38 @@
 }
 /* Small screen / phone */
 @media (min-width: 576px) {
-  .container_developers__header h1 { font-size: 1.66rem; }
+  .container_developers__header h1 {
+    font-size: 1.66rem;
+  }
 }
 /* Medium screen / tablet */
 @media (min-width: 768px) {
-  .container_developers__header h1 { font-size: 1.75rem; }
+  .container_developers__header h1 {
+    font-size: 1.75rem;
+  }
 }
 /* Large screen / desktop */
 @media (min-width: 992px) {
-  .container_developers__header h1 { font-size: 2rem; }
+  .container_developers__header h1 {
+    font-size: 2rem;
+  }
 }
 /* Extra large screen / wide desktop */
 @media (min-width: 1200px) {
-  .container_developers__header h1 { font-size: 2rem; }
+  .container_developers__header h1 {
+    font-size: 2rem;
+  }
 }
 
 .container_developers__list {
-  background-image: url(http://cdn.dota2.com/apps/dota2/images/686/gameplay/bg_03.jpg),
-    url(http://cdn.dota2.com/apps/dota2/images/686/gameplay/bg_05.jpg),
-    url(http://cdn.dota2.com/apps/dota2/images/686/gameplay/bg_04.jpg);
+  background-image: url(/images/background_developers_1.jpg),
+    url(/images/background_developers_3.jpg),
+    url(/images/background_developers_2.jpg);
   background-position: center top, center bottom, center top;
   background-repeat: no-repeat, no-repeat, repeat-y;
   min-height: 550px;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 .container_developers__list .Inner {
@@ -50,35 +60,50 @@
 }
 
 @media (max-width: 992px) {
-  .container_developers__list .Inner { max-width: none;; }
+  .container_developers__list .Inner {
+    max-width: none;
+  }
 }
-/* Extra large screen / wide desktop */
 @media (min-width: 992px) {
-  .container_developers__list .Inner { padding: 0 120px; }
+  .container_developers__list .Inner {
+    padding: 0 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .container_developers__list .Inner {
+    max-width: 1000px;
+  }
 }
 
-.developer__info {
-  display: flex;
-  align-items: flex-end;
+.developer {
+  margin-top: 0.625rem;
 }
 
-.developer__avatar {
-  width: 72px;
-  height: 72px;
+.developer__hero {
+  margin-bottom: 1.5rem;
+  width: 59px;
+  height: 33px;
 }
 
 .developer__name-and-flag {
-  margin-left: 1rem;
+  margin: 5px 0;
   display: flex;
   align-items: baseline;
-  font-size: 1.75rem;
-  color: #eee;
+}
+
+.developer__name-and-flag h3 {
+  margin: 0;
+  font-family: 'Radiance-Bold', Verdana;
+  font-size: 1rem;
+  color: #ada7a9;
 }
 
 .developer__name-and-flag img {
   margin-left: 0.5rem;
 }
 
-.developer__made {
-  color: #aaa;
+.developer__made ul {
+  font-family: 'Radiance', Verdana;
+  color: #948e90;
+  padding-left: 20px;
 }
