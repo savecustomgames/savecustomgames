@@ -1,7 +1,6 @@
 .container_developers__header {
-  background-image: url('/images/background_developers_0.jpg');
-  background-position: center top;
-  background-repeat: no-repeat;
+  background: linear-gradient(to bottom, #000 0%, transparent 30%),
+    center top no-repeat url('/images/background_developers_0.jpg');
   height: 333px;
 }
 

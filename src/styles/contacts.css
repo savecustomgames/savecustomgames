@@ -1,5 +1,5 @@
 .ContactsContainer {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #000 100%),
+  background: linear-gradient(to bottom, transparent 70%, #000 96%),
     #141517 center no-repeat url('/images/background_contacts.jpg');
   background-size: cover;
 }
