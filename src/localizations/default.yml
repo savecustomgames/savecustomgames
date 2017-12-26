@@ -86,6 +86,11 @@ developers:
     flag: de
     made: |-
       * [Youtube Personality](https://www.youtube.com/channel/UCmxX0QwCivAbRAXvPbEid8Q) and [Twitch Streamer](https://www.twitch.tv/l34um1). Creator of [Open Angel Arena](http://steamcommunity.com/sharedfiles/filedetails/?id=513926896), [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942) and sponsor of [Pimp My Peon](https://steamcommunity.com/sharedfiles/filedetails/?id=972949462).
+  - name: Diellan
+    icon: rubick
+    flag: il
+    made: |-
+      * Creator of [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
   - name: Arhowk 
     icon: pudge
     flag: us
@@ -101,11 +106,6 @@ developers:
     flag: us
     made: |-
       * Creator of [Snowtown Throwdown](http://steamcommunity.com/sharedfiles/filedetails/?id=1158412580&searchtext=) and [Wisp Cosmetic Set](http://steamcommunity.com/sharedfiles/filedetails/?id=398866023).
-  - name: Bread
-    icon: puck
-    flag: au
-    made: |-
-      * Creator of [Dusk](https://steamcommunity.com/sharedfiles/filedetails/?id=426167013).
   - name: Usagi Majo Arctangent
     icon: mindstealer
     flag: us
@@ -116,11 +116,11 @@ developers:
     flag: ru
     made: |-
       * Creator of [Pure Reflex](https://steamcommunity.com/sharedfiles/filedetails/?id=575540979), [Frostivus: The Snowman's Story](https://steamcommunity.com/sharedfiles/filedetails/?id=1209178917), [Duel](https://steamcommunity.com/sharedfiles/filedetails/?id=867129063) and [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
-  - name: Diellan
-    icon: rubick
-    flag: il
+  - name: Bread
+    icon: puck
+    flag: au
     made: |-
-      * Creator of [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
+      * Creator of [Dusk](https://steamcommunity.com/sharedfiles/filedetails/?id=426167013).
   - name: Darklord
     icon: shadowfiend
     flag: au
