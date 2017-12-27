@@ -66,6 +66,11 @@ developers:
     flag: be
     made: |-
       * Lead Developer of [Epic Boss Fight](https://steamcommunity.com/sharedfiles/filedetails/?id=305278898) and developer for [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942).
+  - name: StrangeR
+    icon: naturesprophet
+    flag: ru
+    made: |-
+      * Creator of [BIRZHA MEMOV](https://steamcommunity.com/sharedfiles/filedetails/?id=932631669).
   - name: ChalkyBrush
     icon: leshrac
     flag: ca
@@ -133,7 +138,7 @@ developers:
       * [Open source contributor](https://github.com/chrisinajar) and creator of [Open Angel Arena](http://steamcommunity.com/sharedfiles/filedetails/?id=513926896), [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942) and pre-reborn mod 'MNI Mode'.
   - name: Mocherad
     icon: dagon_3
-    flag: ru
+    flag: ua
     made: |-
       * Creator of [Pure Reflex](https://steamcommunity.com/sharedfiles/filedetails/?id=575540979), [Frostivus: The Snowman's Story](https://steamcommunity.com/sharedfiles/filedetails/?id=1209178917), [Duel](https://steamcommunity.com/sharedfiles/filedetails/?id=867129063) and [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
   - name: Vendivar
