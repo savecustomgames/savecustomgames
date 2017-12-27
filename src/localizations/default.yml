@@ -66,11 +66,6 @@ developers:
     flag: be
     made: |-
       * Lead Developer of [Epic Boss Fight](https://steamcommunity.com/sharedfiles/filedetails/?id=305278898) and developer for [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942).
-  - name: StrangeR
-    icon: naturesprophet
-    flag: ru
-    made: |-
-      * Creator of [BIRZHA MEMOV](https://steamcommunity.com/sharedfiles/filedetails/?id=932631669).
   - name: ChalkyBrush
     icon: leshrac
     flag: ca
@@ -81,6 +76,11 @@ developers:
     flag: au
     made: |-
       * Acting Manager of [ModDota.com](https://moddota.com/).
+  - name: StrangeR
+    icon: naturesprophet
+    flag: ru
+    made: |-
+      * Creator of [BIRZHA MEMOV](https://steamcommunity.com/sharedfiles/filedetails/?id=932631669).
   - name: Zapp Brannigan
     icon: bristleback
     flag: va
