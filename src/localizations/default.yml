@@ -102,8 +102,8 @@ developers:
     made: |-
       * Creator of [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
   - name: Shopper
-    icon: 
-    flag: il
+    icon: mek
+    flag: us
     made: |-
       * Creator of [SWAT: Reborn](http://steamcommunity.com/sharedfiles/filedetails/?id=725282388) and [Snow Brawl](http://steamcommunity.com/sharedfiles/filedetails/?id=1200619594).
   - name: Arhowk
@@ -131,6 +131,11 @@ developers:
     flag: ru
     made: |-
       * Creator of [Pure Reflex](https://steamcommunity.com/sharedfiles/filedetails/?id=575540979), [Frostivus: The Snowman's Story](https://steamcommunity.com/sharedfiles/filedetails/?id=1209178917), [Duel](https://steamcommunity.com/sharedfiles/filedetails/?id=867129063) and [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
+  - name: Vendivar
+    icon: troll
+    flag: us
+    made: |-
+      * Creator of [Island Troll Tribes 2](https://steamcommunity.com/sharedfiles/filedetails/?id=801065815).
   - name: Bread
     icon: puck
     flag: au
