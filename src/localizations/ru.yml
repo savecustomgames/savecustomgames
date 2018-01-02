@@ -1,6 +1,11 @@
 locale_default: English (Английский)
 locale_ru: Русский
 
+title: Спасите Кастомные Игры
+
+title_line1: СПАСИТЕ
+title_line2: КАСТОМНЫЕ ИГРЫ
+
 introduction: ВСТУПЛЕНИЕ
 introduction_text: Пользовательские игры в Dota - это продолжение традиции, которая породила Dota, но настрой в сообществе разработчиков пользовательских игры всегда был низок. После [Неудачного](https://www.reddit.com/r/DotA2/comments/7bc84s/valve_this_custom_game_contest_is_a_bad_joke/) [Холодрыжества](https://www.reddit.com/r/DotA2/comments/7jvwwp/how_valve_completely_destroyed_custom_games_with/) многие разработчикие оказались преданны и проигнорированы Valve, получив чувство, что разработка пользовательских игр - это безнадежная битва против компании, которой нет до нас дела. У пользовательских игр может быть светлое будущее, но лишь с поддержкой Valve. Помогите нам передать им это сообщение.
 
@@ -89,7 +94,7 @@ developers:
     icon: lotus_orb
     flag: de
     made: |-
-      * [Youtube'ер](https://www.youtube.com/channel/UCmxX0QwCivAbRAXvPbEid8Q) и [стример](https://www.twitch.tv/l34um1). Создатель [Open Angel Arena](http://steamcommunity.com/sharedfiles/filedetails/?id=513926896), [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942) и спонсор [Pimp My Peon](https://steamcommunity.com/sharedfiles/filedetails/?id=972949462).
+      * [Youtuber](https://www.youtube.com/channel/UCmxX0QwCivAbRAXvPbEid8Q) и [стример](https://www.twitch.tv/l34um1). Создатель [Open Angel Arena](http://steamcommunity.com/sharedfiles/filedetails/?id=513926896), [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942) и спонсор [Pimp My Peon](https://steamcommunity.com/sharedfiles/filedetails/?id=972949462).
   - name: Diellan
     icon: rubick
     flag: il
