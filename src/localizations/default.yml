@@ -3,8 +3,8 @@ locale_ru: Русский (Russian)
 
 title: Save Custom Games
 
-title_line1: Save
-title_line2: Custom Games
+title_line1: SAVE
+title_line2: CUSTOM GAMES
 
 introduction: INTRODUCTION
 introduction_text: Custom Games in Dota represent a continuation of the tradition that gave birth to Dota, but morale within the custom game community is at an all time low. In the wake of the [Frostivus](https://www.reddit.com/r/DotA2/comments/7jvwwp/how_valve_completely_destroyed_custom_games_with/) [Fiasco](https://www.reddit.com/r/DotA2/comments/7bc84s/valve_this_custom_game_contest_is_a_bad_joke/), many developers are feeling betrayed and ignored by Valve, feeling that developing custom games is a hopeless uphill battle against a company that doesn’t care. Custom Games have a bright future but only with the support of Valve. Help us get that message to them.
@@ -16,18 +16,18 @@ complains:
   - title: FIX FREQUENT PLAYER DISCONNECTS
     video: /images/reason_disconnects
     text: For [years](https://www.reddit.com/r/DotA2/comments/7ehmdt/how_can_it_still_be_after_literally_years_that/), custom games have been plagued with predictable and widespread disconnecting in the beginning phase of games. This problem affects most games, including Valve custom games, Overthrow and 10v10. This problem is usually fixed by reconnecting after a disconnect. The problem is entirely on Valve’s end, and unfortunately we cannot do anything about it from the standpoint as a custom game developer.
-  - title: PROVIDE CHANGELOG FOR API UPDATES
-    video: /images/reason_updates
-    text: For a company that prides itself on [supporting](https://imgur.com/jszUNxr) user generated content, it's strange that so little consideration is given for the modding community. Updating a dynamic game like DotA 2 is bound to [break](https://www.reddit.com/r/DotA2/comments/5iy4k5/700_is_killing_my_custom_game_and_i_cant_do/) custom games sometimes, but too frequently Valve makes slight or seemingly unnecessary changes (like renaming a function and then changing it back a month later) which breaks many custom games, leaving the community to scramble and try to figure out what has changed and what broke. It would be trivially easy for Valve to provide a simple changelog of updates to the API when they release updates and it would help modders recover much faster from game breaking updates.
+  - title: REVAMP ARCADE LAYOUT
+    video: /images/reason_overview
+    text: Replace the top 10 view list with a list of all lobbies, grouping lobbies and ranking lobbies by the amount of lobbies, remove workshop vote and fix the [problem](https://www.reddit.com/r/DotA2/comments/7lpdq7/suggestions_to_improve_open_lobbies_widget/) where players end up in solo lobbies when clicking play. A ping should be shown next to grouped lobbies to indicate the ping of the best lobby for the player in that group. Pressing the Play button on grouped lobbies should join the best lobby for the player. A “Local Lobbies” window should show custom games that only have one lobby and are in the same region as a player, this will allow newer custom games to be able to find players. Local lobbies should be ranked by age of lobby.
   - title: IMPROVE DEBUGGING TOOLS
     video: /images/reason_debugging
     text: Developers have little to no ability to track down information leading to the cause of various bugs and crashes, both in the local testing client and especially in the live servers. The types of crashes are wide in range, from some being as simple as a function being renamed by Valve, to others as complicated as an order crashing the server because the order ended up being invalid with the given parameters. This often leads to months of wasted time for developers to track down these bugs. Simple tools, such as the option to forward the server Lua output to a separate site or workshop page, enabling the specate button or re-enabling replays of custom games would help greatly.
   - title: AUTOMATED DEDICATED SERVERS
     video: /images/reason_servers
     text: Valve's [sporadic](https://www.reddit.com/r/DotA2/comments/6n18qx/something_must_change_about_custom_games_and/) and seemingly manual process of giving out dedicated servers to custom games has resulted in even popular games not having them, while older games that nobody plays anymore have dedicated servers. Developers have even resorted to cannibalizing older custom games entries to take advantage of their dedicated servers status (Open Angel Arena taking Pimp My Peon's Entry). Valve should instead automate the process of giving dedicated servers, so that once a game reaches a certain popularity, servers will be allocated, or reallocated if the game becomes unplayed.
-  - title: REVAMP ARCADE LAYOUT
-    video: /images/reason_overview
-    text: Replace the top 10 view list with a list of all lobbies, grouping lobbies and ranking lobbies by the amount of lobbies, remove workshop vote and fix the [problem](https://www.reddit.com/r/DotA2/comments/7lpdq7/suggestions_to_improve_open_lobbies_widget/) where players end up in solo lobbies when clicking play. A ping should be shown next to grouped lobbies to indicate the ping of the best lobby for the player in that group. Pressing the Play button on grouped lobbies should join the best lobby for the player. A “Local Lobbies” window should show custom games that only have one lobby and are in the same region as a player, this will allow newer custom games to be able to find players. Local lobbies should be ranked by age of lobby.
+  - title: PROVIDE CHANGELOG FOR API UPDATES
+    video: /images/reason_updates
+    text: For a company that prides itself on [supporting](https://imgur.com/jszUNxr) user generated content, it's strange that so little consideration is given for the modding community. Updating a dynamic game like DotA 2 is bound to [break](https://www.reddit.com/r/DotA2/comments/5iy4k5/700_is_killing_my_custom_game_and_i_cant_do/) custom games sometimes, but too frequently Valve makes slight or seemingly unnecessary changes (like renaming a function and then changing it back a month later) which breaks many custom games, leaving the community to scramble and try to figure out what has changed and what broke. It would be trivially easy for Valve to provide a simple changelog of updates to the API when they release updates and it would help modders recover much faster from game breaking updates.
 
 what_you_can_do: WHAT YOU CAN DO
 what_you_can_do_text: Tell Valve that custom games are important for Dota 2 community!

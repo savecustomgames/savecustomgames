@@ -54,7 +54,7 @@
                 <div class="Inner">
                     <h2><%- complains.title %></h2>
                     <div>
-                        <video autoplay muted loop preload="auto">
+                        <video autoplay muted loop preload="auto" poster="<%- complains.video + '_preview.png' %>">
                             <source type="video/webm" src="<%- complains.video + '.webm' %>">
                             <source type="video/mp4" src="<%- complains.video + '.mp4' %>">
                         </video>
@@ -63,6 +63,7 @@
                 </div>
             </div>
         <% }) %>
+
         <div class="Container ContactsContainer">
             <div class="Inner">
                 <h3><%- __.what_you_can_do %></h3>
