@@ -55,6 +55,11 @@ developers:
     flag: ru
     made: |-
       * Создатель [Angel Arena Black Star](https://steamcommunity.com/sharedfiles/filedetails/?id=699441891).
+  - name: Avalon Studio
+    icon: crest
+    flag: cn
+    made: |-
+      * Создатели [Winterstorm](https://steamcommunity.com/sharedfiles/filedetails/?id=1205371753), [Realm Of Chaos - The Legend of Mt. Shu](https://steamcommunity.com/sharedfiles/filedetails/?id=866471631), [Touhou Defence of the Shrines](https://steamcommunity.com/sharedfiles/filedetails/?id=616333146), [NavalWarfare](https://steamcommunity.com/sharedfiles/filedetails/?id=524239685), [Realm of Chaos](https://steamcommunity.com/sharedfiles/filedetails/?id=520323982) и [Battle of Mirkwood](https://steamcommunity.com/sharedfiles/filedetails/?id=518202526).
   - name: Disorance
     icon: druid
     flag: ru
@@ -75,6 +80,11 @@ developers:
     flag: au
     made: |-
       * Руководитель [ModDota.com](https://moddota.com/).
+  - name: StrangeR
+    icon: naturesprophet
+    flag: ru
+    made: |-
+      * Создатель [BIRZHA MEMOV](https://steamcommunity.com/sharedfiles/filedetails/?id=932631669).
   - name: Zapp Brannigan
     icon: bristleback
     flag: va
@@ -89,7 +99,7 @@ developers:
     icon: invoker
     flag: cn
     made: |-
-      * Создатель [Battle of Mirkwood](https://steamcommunity.com/sharedfiles/filedetails/?id=518202526&searchtext=), [BOM BattleRoyale](https://steamcommunity.com/sharedfiles/filedetails/?id=1092484716) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
+      * Создатель [Battle of Mirkwood](https://steamcommunity.com/sharedfiles/filedetails/?id=518202526&searchtext=), [BOM BattleRoyale](https://steamcommunity.com/sharedfiles/filedetails/?id=1092484716) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
   - name: Baumi
     icon: lotus_orb
     flag: de
@@ -100,6 +110,11 @@ developers:
     flag: il
     made: |-
       * Создатель [Dota 2 Horde Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026).
+  - name: Shopper
+    icon: mek
+    flag: us
+    made: |-
+      * Создатель [SWAT: Reborn](http://steamcommunity.com/sharedfiles/filedetails/?id=725282388) и [Snow Brawl](http://steamcommunity.com/sharedfiles/filedetails/?id=1200619594).
   - name: Arhowk
     icon: pudge
     flag: us
@@ -112,19 +127,29 @@ developers:
       * Создатель [Petri Reborn](https://steamcommunity.com/sharedfiles/filedetails/?id=483720948) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298) и разработчик [Legends of Dota: Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=717356279).
   - name: Toyoka
     icon: wisp
-    flag: us
+    flag: ca
     made: |-
-      * Создатель [Snowtown Throwdown](http://steamcommunity.com/sharedfiles/filedetails/?id=1158412580&searchtext=) и [Wisp Cosmetic Set](http://steamcommunity.com/sharedfiles/filedetails/?id=398866023).
+      * Создатель [Snowtown Throwdown](http://steamcommunity.com/sharedfiles/filedetails/?id=1158412580&searchtext=) и [Wisp Cosmetic Set](http://steamcommunity.com/sharedfiles/filedetails/?id=1182695521).
   - name: Usagi Majo Arctangent
     icon: mindstealer
     flag: us
     made: |-
       * Создатель [Bob Wars](https://steamcommunity.com/sharedfiles/filedetails/?id=904834212&searchtext=), [DOTA 2 But ...](https://steamcommunity.com/sharedfiles/filedetails/?id=838016297), [Randymizer](https://steamcommunity.com/sharedfiles/filedetails/?id=964909547), [DOTA 2 but every Hero is secretly also Chen](https://steamcommunity.com/sharedfiles/filedetails/?id=830359459), [ARAM: Murder Isthmus](https://steamcommunity.com/sharedfiles/filedetails/?id=1170382864) и разработчик [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942).
+  - name: Chrisinajar
+    icon: bottle
+    flag: us
+    made: |-
+      * [Активный участник сообщества](https://github.com/chrisinajar) и создатель [Open Angel Arena](http://steamcommunity.com/sharedfiles/filedetails/?id=513926896), [The Second Day of Frostivus](http://steamcommunity.com/sharedfiles/filedetails/?id=1197063942) и до-реборн режима 'MNI Mode'.
   - name: Mocherad
     icon: dagon_3
-    flag: ru
+    flag: ua
     made: |-
       * Создатель [Pure Reflex](https://steamcommunity.com/sharedfiles/filedetails/?id=575540979), [Frostivus: The Snowman's Story](https://steamcommunity.com/sharedfiles/filedetails/?id=1209178917), [Duel](https://steamcommunity.com/sharedfiles/filedetails/?id=867129063) и [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
+  - name: Vendivar
+    icon: troll
+    flag: us
+    made: |-
+      * Создатель [Island Troll Tribes 2](https://steamcommunity.com/sharedfiles/filedetails/?id=801065815).
   - name: Bread
     icon: puck
     flag: au
@@ -134,4 +159,4 @@ developers:
     icon: shadowfiend
     flag: au
     made: |-
-      * Главный разработчик [Legends of Dota: Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=472597026) и создатель [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
+      * Главный разработчик [Legends of Dota: Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=717356279) и создатель [Feastivus](https://steamcommunity.com/sharedfiles/filedetails/?id=1165493298).
